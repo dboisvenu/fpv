@@ -1,0 +1,95 @@
+#$ TITLE: BarDown rates
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RATES
+#$ STATUS: PRIVATE
+#$ KEYWORDS: rates
+#$ AUTHOR: BarDown
+
+#$ INCLUDE: presets/4.3/rates/defaults.txt
+
+rateprofile 0
+
+# rateprofile 0
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 100
+set pitch_rc_rate = 100
+set yaw_rc_rate = 100
+set roll_srate = 58
+set pitch_srate = 58
+set yaw_srate = 58
+set tpa_rate = 70
+set tpa_breakpoint = 1250
+
+rateprofile 1
+
+# rateprofile 1
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 80
+set pitch_rc_rate = 80
+set yaw_rc_rate = 80
+set roll_srate = 70
+set pitch_srate = 70
+set yaw_srate = 70
+set tpa_rate = 70
+set tpa_breakpoint = 1250
+
+rateprofile 2
+
+# rateprofile 2
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 106
+set pitch_rc_rate = 106
+set yaw_rc_rate = 106
+set roll_expo = 13
+set pitch_expo = 13
+set yaw_expo = 13
+set roll_srate = 51
+set pitch_srate = 51
+set yaw_srate = 51
+set tpa_rate = 70
+set tpa_breakpoint = 1250
+
+rateprofile 3
+
+# rateprofile 3
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 106
+set pitch_rc_rate = 106
+set yaw_rc_rate = 106
+set yaw_expo = 13
+set roll_srate = 51
+set pitch_srate = 51
+set yaw_srate = 51
+set tpa_rate = 70
+set tpa_breakpoint = 1250
+
+rateprofile 4
+
+# rateprofile 4
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 106
+set pitch_rc_rate = 106
+set yaw_rc_rate = 106
+set roll_expo = 20
+set pitch_expo = 20
+set yaw_expo = 20
+set roll_srate = 51
+set pitch_srate = 51
+set yaw_srate = 51
+
+rateprofile 5
+
+# rateprofile 5
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 106
+set pitch_rc_rate = 106
+set yaw_rc_rate = 106
+set roll_expo = 20
+set pitch_expo = 20
+set yaw_expo = 20
+set roll_srate = 51
+set pitch_srate = 51
+set yaw_srate = 51
+
+# restore original rateprofile selection
+rateprofile 0
